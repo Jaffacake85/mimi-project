@@ -94,24 +94,179 @@ font-family: 'Open Sans Condensed', sans-serif;
 font-family: 'Poiret One', cursive;
 font-family: 'Tangerine', cursive;
 ============================================================================= */
+
+/***** BASE STYLES *****/
 body {
-  background: #1E90FF;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+#about, #accessories, #contact {
+  height: 600px;
+}
 
+/***** GRID *****/
 
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
 
+.third-width {
+  width: 400px;
+  float: left;
+}
 
+/***** HEADER *****/
 
+header {
+  height: 800px;
+  background-image: url("../img/butterflies2.jpeg");
+  background-size: cover;
+}
 
+header h1 {
+  font-size: 42px;
+  color: #2b2b2b;
+  padding-right: 50px;
+  font-family: 'Tangerine', cursive;
+  text-align: right;
+  float: right;
+}
 
+nav {
+  float: right;
+  padding: 75px 40px;
+}
 
+nav ul li {
+  display: inline-block;
+}
 
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #0066ff;
+  border-radius: 25px;
+  text-align: center;
+}
 
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-size: 72px;
+  line-height: 80px;
+  color: #001a33;
+  padding: 20px 0;
+  margin: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 
+header h2 span {
+  color: #2b2b2b;
+}
 
+/***** ABOUT *****/
 
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-size: 36px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#about p {
+  font-size: 21px;
+  color: #000000;
+  line-height: 42px;
+  padding-right: 50px;
+}
+
+/***** Accessories *****/
+
+#accessories {
+  background-color: #668cff;
+  text-align: center;
+}
+
+#accessories .full-width {
+  padding: 65px 0 65px 0;
+}
+
+#accessories img {
+  padding-bottom: 30px;
+}
+
+#accessories h3 {
+  font-size: 24px;
+  width: 190px;
+  margin: 0 auto;
+}
+
+#accessories p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #2b2b2b;
+  padding: 0 35px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#address-book {
+    border: 6px solid #000000;
+}
+
+#contact h2, #email-header {
+    padding-left: 115px;
+}
+
+#contact h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 36px;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #668cff;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact p {
+  font-family: 'Poiret One', cursive;
+  clear: both;
+  padding-left: 1200px;
+}
+
+#contact .half-width {
+  margin: auto;
+}
+
+#contact-info .half-width {
+  float: left;
+  margin: auto;
+}
 
 
 /* ==========================================================================
